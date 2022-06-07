@@ -20,5 +20,3 @@
 - or also list all stored passwords or tokens ``passwarden -L``
 
 - If you prefer you can remove your password or token: ``passwarden -R service_name``
-
-
