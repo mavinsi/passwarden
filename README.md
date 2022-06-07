@@ -2,6 +2,8 @@
 <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg">
 
 <div id="header" align="center">
+    <img width="550" src="./gif/tutorial.gif">
+  
   Script in bash to store your passwords or tokens of any service securely and locally.
   </div>
   
@@ -12,6 +14,10 @@
 3. now run the install script ``sudo ./install.sh``
 
 ## 🏃 Usage
+
+
+
+  
 
 To start store your password or token: ``passwarden -S service_name password_or_token``
 
