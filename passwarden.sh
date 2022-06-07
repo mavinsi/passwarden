@@ -34,6 +34,19 @@ if [ $1 = "-R" ]; then
   fi
 fi
 
+if [ $1 = "-V" ]; then
+  
+  if [ -f "$filedb" ]; then
+  echo ""
+  result=`cat $filedb`
+  echo "$2: "$result
+  else 
+    xecho ""
+    echo "[ERROR] No password found for this service..."
+  
+  fi
+fi
+
 if [ $1 = "-L" ]; then
    echo ""
    filecount=`find $pathdb -type f | wc -l`
