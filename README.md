@@ -13,10 +13,10 @@
 
 ## 🏃 Usage
 
-- To start store your password or token: ``passwarden -S service_name password_or_token``
+To start store your password or token: ``passwarden -S service_name password_or_token``
 
-- Now you can view your stored password or token: ``passwarden -V service_name``
+Now you can view your stored password or token: ``passwarden -V service_name``
 
-- or also list all stored passwords or tokens ``passwarden -L``
+or also list all stored passwords or tokens: ``passwarden -L``
 
-- If you prefer you can remove your password or token: ``passwarden -R service_name``
+If you prefer you can remove your password or token: ``passwarden -R service_name``
